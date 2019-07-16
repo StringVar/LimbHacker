@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
-
+namespace NobleMuffins.LimbHacker
+{
 public class CameraPositionController : MonoBehaviour
 {
 	public Transform backAwayPosition, upClosePosition;
@@ -25,4 +26,5 @@ public class CameraPositionController : MonoBehaviour
 		
 		transform.position = position;
 	}
+}
 }
